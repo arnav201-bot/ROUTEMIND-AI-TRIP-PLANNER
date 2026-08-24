@@ -59,7 +59,7 @@ if not GROQ_API_KEY:
 # LLM - original model kept
 # =========================
 llm = ChatGroq(
-    model="meta-llama/llama-prompt-guard-2-22m",
+    model="groq/compound",
     api_key=GROQ_API_KEY,
 )
 
